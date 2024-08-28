@@ -1,6 +1,6 @@
 # learning-assembly
 
-Code related to Programming from the Ground Up, x86 AT&T assembly.
+Code related to Programming from the Ground Up, in x86 AT&T assembly.
 
 Assemble using **as**:
 
