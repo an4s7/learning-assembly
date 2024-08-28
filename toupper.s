@@ -118,11 +118,11 @@ end_loop:
 #
 # Instead of calculating the value 'A' - 'a',and add this to the L.O 
 # byte in %cl i used the fact that the ASCII codes for letters only 
-# differs in bit 5 from upper case to lower. So with a XOR with 0xDF
+# differs in bit 5 from upper case to lower. So with a AND with 0xDF
 # on %cl flips the 5 bit and does the conversion.
 #
 # ascii:
-#  (e = 01100101) xor (0xDF = 11011111) = 
+#  (e = 01100101) and (0xDF = 11011111) = 
 #  (E = 01000101)
 
 .equ LOWERCASE_A, 'a'
