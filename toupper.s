@@ -1,7 +1,15 @@
 #
 # Purpose: Converts input file leters to uppercase in the output file.
 # Usage: ./toupper input_file.txt output_file.txt
- 
+
+#Code related to Programming from the Ground Up, in x86 AT&T assembly.
+
+#Assemble using **as**:
+#`as -32 foo.s -o foo.o`
+
+#Link using **ld**:
+#`ld -m elf_i386 foo.o -o foo`
+#-----------------------------------------------------------------------#
 .section  .data
 
 # system call nums
